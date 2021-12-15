@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 const CounterApp = ({value}) =>{
@@ -6,6 +6,8 @@ const CounterApp = ({value}) =>{
         <>
             <h1>CounterApp</h1>
             <h2>value</h2>
+
+            <button onClick={function(){console.log('+1')}}>CounterB</button>
         </>
     )
 }

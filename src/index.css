@@ -4,3 +4,11 @@ html, body{
     font-style: italic;
     font-size: x-large;
 }
+
+button{
+    font-size: x-large;
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    margin: 10px;
+}
